@@ -12,10 +12,14 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 lst=[5, 10, 20]
+
+
 try:
     print(lst[5])
+
 except:
     msg="You're out of list range"
+    
     print(msg)
 
 ## Output
